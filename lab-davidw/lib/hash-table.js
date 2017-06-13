@@ -8,8 +8,6 @@ const HashTable = module.exports = function(size=8192) {
 HashTable.prototype.hashKey = function(key) {
   if(!key) throw new Error('key required for hash');
   let hash = key.split('').reduce((acc, curr) => acc + curr.charCodeAt(0), 0) % this.size;
-  // NOTE This is where I need to handle any key collissions, and implement a linked list, fun to play like I know how to do that...
-
   return hash;
 };
 

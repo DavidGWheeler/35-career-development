@@ -5,3 +5,8 @@
 
 ## Usage
   - download this repository
+  - install the package
+    - `$ npm install`
+
+  - Test!
+    - `$ npm run test`

@@ -2,7 +2,7 @@
 
 const expect = require('chai').expect;
 const faker = require('faker');
-const HashTable = require('../lib/hash-table');
+const HashTable = require('../lib/hash-table.js');
 
 describe('Hash Table Module', function() {
   before(done => {
